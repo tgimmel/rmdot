@@ -1,0 +1,31 @@
+This is a small scrip used to remove the dot (period) after the number in a music file.  For 
+some reason eMusic new download manger puts a dot at the end of the number which annoys me.
+This is a rough little script so use with care.  Adding the -c flag actually make it work.  It's
+just a test until then. You feed it a subdirectory name, not filenames.
+
+Have fun!
+Tim
+tim@gimmel.org
+
+Usage: rmdot.pl [-c} <path>
+       -c to really make the change, otherwise
+       just testing.
+ 
+WARNING: Only run once in a subdir or it will clobber
+more "dots"!
+
+
+    Copyright (C) 2013  Timothy Gimmel
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>
