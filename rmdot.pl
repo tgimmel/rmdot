@@ -37,7 +37,7 @@ foreach $file (@music_files) {
 }
 
 sub usage {
-	print "Usage: rmdot.pl [-c} <path>\n";
+	print "Usage: rmdot.pl [-c] <path>\n";
 	print "       -c to really make the change, otherwise\n";
 	print "       just testing. \n";
 	print "WARNING: Only run once in a subdir or it will clobber\n";
